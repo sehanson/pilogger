@@ -1,7 +1,9 @@
 pilogger
 ========
 
-Temperature and humidity logger using Raspberry Pi and Exosite
+Temperature and humidity logger using Raspberry Pi and Exosite 
+
+http://portals.exosite.com/views/1612921642/2563850486
 
 Basics:
 
