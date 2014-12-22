@@ -12,7 +12,7 @@ maximum values every minute, emailing these values and reseting them each weekda
 Thermocouples:
 DS18B20 http://www.adafruit.com/product/374 (For temperatures -55 to 125°C)
 
-THERMOCOUPLE AMPLIFIER MAX31855 BREAKOUT BOARD http://www.adafruit.com/product/269 (For temperatures -200°C to +1350°C)
+THERMOCOUPLE AMPLIFIER MAX31850 BREAKOUT BOARD http://www.adafruit.com/product/1727 (For temperatures -200°C to +1350°C)
 
 AM2302 TEMPERATURE AND HUMIDITY SENSOR http://www.adafruit.com/product/393 (For temperatures -40 to 80°C and 0-100% humidity)
 
@@ -26,6 +26,7 @@ Email - Runs every weekeday at 8AM through cron, opens text files for the minuim
 
 Thermocouple IDs:
 Actual thermocouple ID numbers are written into the programs in order to differentiate sources. 
+
 
 
 
