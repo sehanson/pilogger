@@ -17,7 +17,7 @@ THERMOCOUPLE AMPLIFIER MAX31855 BREAKOUT BOARD http://www.adafruit.com/product/2
 AM2302 TEMPERATURE AND HUMIDITY SENSOR http://www.adafruit.com/product/393 (For temperatures -40 to 80°C and 0-100% humidity)
 
 Wiring:
-All sensors share GPIO #4 data, 3.3v, and ground  with a 4.7k pullup resistor between #4 and 3.3v (although AM2302
+All sensors share (in parallel) GPIO #4 data, 3.3v, and ground  with a 4.7k pullup resistor between #4 and 3.3v (although AM2302
 performance may improve with separate data pin)
 
 
