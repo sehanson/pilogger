@@ -20,6 +20,13 @@ Wiring:
 All sensors share (in parallel) GPIO #4 data, 3.3v, and ground  with a 4.7k pullup resistor between #4 and 3.3v (although AM2302
 performance may improve with separate data pin)
 
+Python programs used:
+ExositeUpload - Runs every 10 minutes through cron, uploads temperature readings to Portals.exosite.com
+MinMax - Runs every 1 minute through cron, opens text files which have recorded in each the minimum or maximum temperture for that sensor since the last email.
+Email - Runs every weekeday at 8AM through cron, opens text files for the minuimum and maximum values since the last email and sends an email with these values. It then writes the current value as both the minimum and maximum.
+
+Thermocouple IDs:
+Actual thermocouple ID numbers are written into the programs in order to differentiate sources. 
 
 
 
